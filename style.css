@@ -1,0 +1,141 @@
+:root {
+  --accent-color: #ff7043;
+  --border-color: #101010;
+}
+
+.uzKWK, ._09ncq, .zGtbP, body, .N9abW, .DPiy6, .xkuux, .BSqtQ, .VR6_Q, .gJlPN { /* black bg */
+	background-color: black!important;
+}
+
+._9ezyW { /* top bar bg */
+  background: linear-gradient(to top,#00000000,#000000b0 60%,#000000ff)!important;
+}
+
+.b5itu, .BvyAW, .ltpMr, .Slqrh { /* top & bottom bar icons */
+  filter: invert(1)!important;
+}
+
+.KGiwt { /* bottom bar bg */
+  background: linear-gradient(to bottom,#00000000,#000000b0 60%,#000000ff)!important;
+}
+
+._9ezyW::before, .KGiwt::before { /* remove borders from top and bottom bar */
+  display: none!important;
+}
+
+body, .cqXBL, .cqXBL:visited,
+.y9v3U, .zV_Nj, .zV_Nj:visited,
+.TlrDj, .TlrDj:visited,
+a.O4GlU, a.O4GlU:visited,
+._0G-TY, .XdXBI,
+.vcOH2,
+.KV-D4, .K3Sf1,
+.RPhNB, .yWX7d._8A5w5, a.yWX7d._8A5w5, a.yWX7d._8A5w5:visited,
+.BcJ68, .YFq-A,
+.g47SY,
+textarea, input { /* white text */
+  color: #d9d9d9!important;
+}
+
+.C4VMK a, .C4VMK a:visited,
+.nJAzx, .nJAzx:visited,
+.cqXBL, .FPmhX { /* link text */
+  color: var(--accent-color)!important;
+}
+
+.glyphsSpriteHeart__filled__24__red_5 { /* fix wrong color hearts */
+  filter: invert(1);
+}
+
+.KOa7C, .UE9AK, .zGtbP, ._1LqHP, .n1LTb .RxpZH, ._7zBYT, .eiUFA, .TGYkm, .X3a-9, .PUHRj::after, ._3dEHb, .fx7hk, ._2z6nI { /* separator borders */
+  border-color: var(--border-color);
+}
+
+.rDZ30 { /* IG logo fix */
+  filter: invert(1);
+}
+
+.MEAGs { /* post 3 dots options button */
+  filter: invert(1);
+}
+
+._8A5w5, a._8A5w5, a._8A5w5:visited { /* edit profile button */
+  border-color: #242424;
+  background-color: #242424;
+  color: #dbdbdb;
+}
+
+.mOBkM::before { /* "liked by" profile picture outline fix */
+  border-color: black;
+}
+
+/* comments */
+
+.n1LTb .RxpZH { /* new comment area */
+  background: black;
+}
+.n1LTb .X7cDz { /* new comment field */
+  background: #242424;
+  border-color: transparent;
+}
+
+.Ypffh { /* new comment text */
+  color: #dbdbdb;
+}
+
+/* messages */
+
+.K3Sf1, .X3a-9 .wpO6b { /* fix top bar and chat buttons */
+  filter: invert(1);
+}
+
+._6FEQj, .X3a-9 { /* chat bubble color */
+  background: #242424;
+}
+
+.CMoMH, .BY1C7, .mPi-L { /* chat borders */
+  border-color: #242424;
+}
+
+.yWX7d, .yWX7d:visited, a.yWX7d, a.yWX7d:visited { /* send button accent color */
+  color: var(--accent-color);
+}
+
+.tHaIX { /* message requests top message */
+  background-color: #101010;
+}
+
+.gtFbE { /* message requests button */
+  color: var(--accent-color);
+}
+
+/* share dialog */
+.BHY8D { /* sliding handle */
+  background: #242424;
+}
+
+._NyRp { /* icons */
+  filter: invert(1);
+}
+
+.pbNvD { /* direct share dialog */
+  background-color: black;
+}
+
+.cB_4K { /* direct share send button fix */
+   filter: invert(1);
+}
+
+._6YLdr { /* direct share username in field*/
+  background-color: #242424;
+}
+
+.soMvl { /* direct share check boxes */
+  filter: invert(1);
+}
+
+/* search */
+.iwQA6 { /* search bar */
+  background-color: #242424;
+  border-color: #242424;
+}
